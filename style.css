@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        #imgbg {
+            width: 540px; height: 540px; border-radius: 15rem; background: radial-gradient(105.68% 45.69% at 92.95% 50%, rgba(105, 244, 253, 0.5) 0%, rgba(160, 255, 244, 0.095) 53.91%, rgba(254, 216, 255, 0) 100%), radial-gradient(103.18% 103.18% at 90.11% 102.39%, #C9FFF2 0%, rgba(230, 255, 250, 0) 100%), radial-gradient(90.45% 90.45% at 87.84% 9.55%, #FFD2F5 0%, rgba(254, 219, 246, 0) 100%), linear-gradient(135.66deg, rgba(203, 185, 255, 0.8) 14.89%, rgba(216, 202, 254, 0) 74.33%); background-blend-mode: normal,normal,normal,normal,normal,normal; filter: blur(50px);
+        }
+
+        .dot {
+            background-color: rgb(226, 232, 240, 0.96);
+            transition: .5s;
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+        }
+
+        .dotgone {
+            background-color: none;
+            transition: .3s;
+        }
+
+        .dot3 {
+            background-color: rgb(203, 213, 225, 0.96);
+            transition: 0.3s;
+        }
+
+        .dot4 {
+            background-color: rgb(148, 163, 184, 0.96);
+            transition: 0.3s;
+        }
+
+        .dot5 {
+            background: rgb(100, 116, 139, 0.96);
+            transition: 0.3s;
+        }
+        
+        #gal2 {
+            display: none;
+        }
+
+        .lain{
+            transition: 0.2s;
+        }
+
+        .lain:hover{
+            transition: 0.2s;
+            transform: translateY(-2px);
+            text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+        }
+
+        .navrespo {
+            animation-name: navresp;
+            animation-duration: .4s;
+            display: flex;
+        }
+
+        @keyframes navresp {
+            0% {
+                opacity: 0;
+                transform: translatey(-10%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
